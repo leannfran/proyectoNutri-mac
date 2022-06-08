@@ -17,7 +17,7 @@
 
 <body id="grid">
     <header class="headerNav">
-        <nav class="nav">
+        <nav class="nav--contacto">
         <h1 class="nav__logo"> RDA</h1>
             <ul class="nav__ul">
                 <li class="nav__li"><a href="../index.html">Inicio</a></li>
@@ -31,21 +31,38 @@
     <main class="main"> 
         <section>
             <article class="article__contacto">
-                <h2> redes</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quod, esse molestias rem inventore, vel dolorem consequuntur eos soluta exercitationem iste laudantium delectus tempore fugit natus beatae deserunt dolor ipsam</p>
-                    <a class="contacto__ig" href="https://www.instagram.com/rdanutricion/?hl=es">
-                         <div class="contacto__imgContainer">
-                            <img class="contacto__img--ig" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="">
-                        </div>
-                    </a>
+                <h2 class="h2__contacto"> Encontranos en </h2>
+                <p> Instagram como: @rdanutricion o clickea abajo</p>
+                <div class="contacto__imgContainer">
+                     <img class="contacto__img--ig" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png" alt="instagramLogo">
+                </div>
             </article>
-            
+            <article class="containerForm__contacto">
+                <form action="" method="get" enctype="text/plain">
+                        <legend>Informacion Personal</legend>
+                        <label for="sexo">Sexo:</label><br>
+                        <input type="radio" name="Hombre" id="sexo">Hombre
+                        <input type="radio" name="Mujer" id="sexo">Mujer
+                        <input type="radio" name="Otro" id="sexo">Otro
+                        <br><br>
+                        <label for="name">Nombre</label><br>
+                        <input type="text" id="name"><br>
+                        <label for="email">eMail</label> <br>
+                        <input type="email" id="email">
+
+                        </select>
+                        <br><br>
+                        <input type="submit">
+            </article>
         </section>
     </main>
 
 
     <footer class="footer">
-        <p>todos los derechos reservados</p>
+        <br>
+            <br>
+            <br>
+            <p>todos los derechos reservados <br> designer:@leanfran_</p>
     </footer>
 
 </body>
