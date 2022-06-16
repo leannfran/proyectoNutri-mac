@@ -188,6 +188,15 @@ opacity: 0.6;
 
 /*NUTRICION*/
 
+.background__nutricion {
+    background-image: url(../multimedia/fondoNutricion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background__nutricion--plantBased {
+    background-image: url(../multimedia/fondoPlantBased.jpg);
+    background-size: c;
+}
 .nav--nutricion {
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
@@ -197,10 +206,18 @@ opacity: 0.6;
 }
 .contenedorH2__nutricion {
     width: 100%;
-    
+}
+.h2__nutricion--deportiva {
+    font-size: 5rem;
+    line-height: 1.15;
+    letter-spacing: 1px;
+    margin: 1rem 0 1rem 0; 
+    text-align: center;  
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
     
 }
-
 .h2__nutricion {
     font-size: 5rem;
     line-height: 1.15;
